@@ -1,0 +1,92 @@
+[
+  {
+    "LibraryName": "fblxchl",
+    "FilterNode": {
+      "FieldName": "",
+      "RuleType": "Equal",
+      "Value": "",
+      "CombinationType": "And",
+      "IsManyValue": "false",
+      "HasChild": "true",
+      "ChildNodes": [
+        {
+          "FieldName": "UpdateType",
+          "RuleType": "Equal",
+          "IsManyValue": "true",
+          "Value": "0,1",
+          "CombinationType": "Or",
+          "HasChild": "false",
+          "ChildNodes": []
+        },
+        {
+          "FieldName": "TiaoNum",
+          "RuleType": "GreaterThanOrEqual",
+          "Value": "10",
+          "CombinationType": "Or",
+          "IsManyValue": "false",
+          "HasChild": "false",
+          "ChildNodes": []
+        },
+        {
+          "FieldName": "UpdateTime",
+          "RuleType": "DateTimeGreaterThan",
+          "Value": "2022.01.19 07:00:00",
+          "CombinationType": "Or",
+          "IsManyValue": "false",
+          "HasChild": "false",
+          "ChildNodes": []
+        },
+        {
+          "FieldName": "Library",
+          "RuleType": "Contains",
+          "Value": "pfnl",
+          "CombinationType": "Or",
+          "IsManyValue": "false",
+          "HasChild": "false",
+          "ChildNodes": []
+        },
+        {
+          "FieldName": "Category",
+          "RuleType": "ListContains",
+          "Value": "002",
+          "CombinationType": "Or",
+          "IsManyValue": "false",
+          "HasChild": "false",
+          "ChildNodes": []
+        }
+      ]
+    }
+  },
+  {
+    "LibraryName": "apy",
+    "FilterNode": {
+      "FieldName": "",
+      "RuleType": "Equal",
+      "Value": "",
+      "CombinationType": "And",
+      "IsManyValue": "false",
+      "HasChild": "true",
+      "ChildNodes": [
+        {
+          "FieldName": "Title",
+          "RuleType": "Contains",
+          "IsManyValue": "false",
+          "Value": "深圳",
+          "CombinationType": "Or",
+          "HasChild": "false",
+          "ChildNodes": []
+        },
+        {
+          "FieldName": "ImplementOffice",
+          "RuleType": "ListContains",
+          "IsManyValue": "false",
+          "Value": "027",
+          "CombinationType": "Or",
+          "HasChild": "false",
+          "ChildNodes": []
+        }
+
+      ]
+    }
+  }
+]
